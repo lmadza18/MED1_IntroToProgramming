@@ -1,6 +1,7 @@
-int r=60;
+int r=30;
 float ballX;
 float ballY;
+int petalNum = 6;
 
 void setup() {
   size(600,400);
@@ -16,7 +17,7 @@ void draw(){
 
 void flower ( ) {
   fill(#FFA005);
-  for (float i=0;i<PI*2;i+=2*PI/5) {
+  for (float i=0;i<PI*2;i+=2*PI/petalNum) {
   ballX=width/2 + r*cos(i);
   ballY=height/2 + r*sin(i);
   ellipse(ballX,ballY,r,r); 
