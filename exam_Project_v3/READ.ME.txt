@@ -1,0 +1,10 @@
+CREATED BY
+Lucia Francesca Madzaric, MED1
+05/01/2019
+
+------------------------------------------------------------------------------------------
+
+This exam project is a program run through the object-oriented language Processing. The way that 
+this program will work is by interacting with objects via mouse presses. By pressing one of 
+the displayed trees, an event will happen in the form of a sound starting followed by
+another object either changing color or otherwise changing. 
